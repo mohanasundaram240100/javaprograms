@@ -14,7 +14,7 @@ public class Stringoccurence {
 		for(int i=0;i<input.length();i++) {
 			
 			if(input.charAt(i)==toFind);  
-			present=present+1;
+			present=present++;
 						
 		}
 		
