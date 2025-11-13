@@ -1,13 +1,19 @@
 package basicprograms;
 
+import java.util.Scanner;
+
 public class swapping {
 	
 	public static void main(String[] args) {
 
+		
+	//Using third variable	
+		
 	int myval = 15;
 	int otherval = 25;
 	
 	System.out.println("Before swapping: " + myval + " " + otherval);
+	
 	int temp;
 	temp=myval;
 	myval=otherval;
@@ -17,7 +23,9 @@ public class swapping {
 	
 
 	//===================================================================	
-		
+	
+	
+	//Without using third variable
 	
 	int first=15;
 	int second=30;
@@ -30,8 +38,11 @@ public class swapping {
 	
 	System.out.println("After swapping: " + first + " " + second);
 	
+	//using user input from system
 	
-	
+	System.out.println("Enter first num: " + "Enter second number: ");
+	Scanner scanner =new Scanner(System.in);
+	first = scanner.nextInt();
 	
 	}
 }
